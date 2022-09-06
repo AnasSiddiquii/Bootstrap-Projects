@@ -1,0 +1,61 @@
+/* font */
+@font-face{font-family: 'Coda Caption', sans-serif;
+           src: url(../fonts/CodaCaption-ExtraBold.ttf)}
+
+p{font-family: 'Roboto', sans-serif;}
+
+h1,h2,h3,h4,h5{font-family: 'Coda Caption', sans-serif;}
+
+/* body */
+body{margin: 0;}
+
+.uni-padding{ padding: 0 7%;}
+
+/* topbar */
+#topbar{background-color: #576574;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        overflow: auto;
+    }
+
+#social-icon{float: right;}
+
+#tollfree{float: left; color: white; margin: 0; margin-top: 5px;}
+
+.fa-brands{background-color: white; color: #576574; padding: 7px; border-radius: 50%;}
+
+.fa-facebook-f{padding: 7px 10px;}
+
+.fa-whatsapp{padding: 7px 9px;}
+
+.fa-instagram{padding: 7px 10px;}
+
+/* logobar */
+#logobar img{width: 150px;margin: 25px 0;}
+
+/* navbar */
+#navbar{background-color: #ee5253;}
+
+#navbar ul{margin: 0; padding: 0;}
+
+#navbar li{display:inline-block; padding: 20px 0; padding-right: 35px;}
+
+#navbar a{text-decoration: none; color: white;}
+
+/* imp-link */
+
+#imp-links{background-color: #576574; color: white; overflow: auto;}
+
+.div33{width: 33.33%; float: left;padding: 25px 25px; box-sizing: border-box;}
+
+.div33 h3{text-decoration: underline; text-underline-offset: 10px; text-decoration-thickness: 2px;}
+
+#footer-menu{list-style: none; padding: 0;}
+
+#footer-menu li{padding-bottom: 10px;}
+
+#footer-menu a{text-decoration: none; color: white;}
+
+#footer-menu-container{padding-left: 70px;}
+
+#copyright{background-color: #222f3e; padding: 10px; color: #cdcdcd; text-align: center;}
